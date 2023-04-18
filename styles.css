@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__h1 {
+    text-align: center;
+}
+.container__input {
+    margin-top: 15vh;
+}
+.container__box {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+.container__box-ex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35vw;
+}
+.container__box-p {
+    border: 1px solid black;
+    padding: 10px;
+}
