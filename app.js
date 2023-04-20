@@ -7,8 +7,12 @@ const inputBtn = document.querySelector('.emotikon-btn');
 
 input.value = randomEmoticon()
 
-inputBtn.addEventListener('click', newElemArray)
-inputBtn.addEventListener('click', newElemSet)
+inputBtn.addEventListener('click', newElem)
+
+function newElem() {
+    newElemArray()
+    newElemSet()
+}
 
 
 
